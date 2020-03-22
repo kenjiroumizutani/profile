@@ -1,0 +1,67 @@
+<body>
+  <div class="profile">
+    <h2>自己紹介</h2>
+    <div class="profile_photo1">
+      <%= image_tag 'wave.jpg', :size =>'320x210' %>
+    </div>
+    
+    <div class="profile_photo2">
+      
+      
+    </div>
+    
+    <div class="profile_sentence">
+      34歳の一児の父です。<br>
+      現在web系エンジニアへ向けてスクールに通いながら転職活動に励んでいます。<br>
+      ここまでの職歴は大学卒業後6年間教員。<br>
+      1年間バックパッカーで世界をまわり。<br>
+      戻ってきて3年教員。<br>
+      FAエンジニアの会社に営業技術部として入社（家庭の事情で4ヶ月で退社）。<br>
+      そして現在に至ります。<br>
+      趣味は弓道です。<br>
+      <%= link_to '東海社会人弓道リーグ', 'http://syakaijinkyudoleague.blogspot.com/' %>
+      という集団の会長を務めて、年に4回は100人規模の大会を開き楽しんでいます。<br>
+      <br>
+  </div>
+  
+  <div class="skill">
+    <br>
+    <br>
+    <h2>スキル</h2>
+      言語:HTML5,CSS3,Ruby<br>
+      フレームワーク:Ruby on rails<br> 
+      データベース:MySQL<br>
+      ツール:Git Hub,PHPAdmin,Heroku,HeidiSQL<br>
+      OS:windows<br>
+  </div>
+  
+  <div class="sakuhin">
+    <h2>作品紹介</h2>
+    <div class="sakuhin1">
+      <div class="sakuhin1_photo">
+        <%= link_to image_tag('miniblog.png',:size =>'320x210'), 'https://miniblogkeso.herokuapp.com/' %>
+      </div>
+      この作品はログイン機能付きのブログアプリです。<br>
+      イメージとしてmixiさんの様なブログとコメントを備えたものです。<br>
+      工夫点：ブログやコメントをeach文を使って表示すると重たかったので、<br>
+      部分テンプレートを導入して軽減を図りました。<br>
+      <br>
+      <br>
+      <br>
+    </div>
+     
+    <div class="sakuhin2">
+      <div class="sakuhin2_photo">
+        <%= link_to image_tag('railsqs.png',:size =>'320x210'), 'https://rocky-hollows-60193.herokuapp.com/' %>
+      </div>
+      この作品は三択クイズ作成・回答アプリです。<br>
+      非常にシンプルな作品ですが、教員時代に自分がほしかったツールとして<br>
+      作成しました。学校現場の印刷コストや印刷時間に疑問があり、<br>
+      web上に自分の問題集がほしいとほしいと思い作成しました。<br>
+      工夫点：誰でも気軽に使えるレベルでシンプルにしました。<br>
+      <br>
+      <br>
+    </div>
+  </div>
+  
+</body>

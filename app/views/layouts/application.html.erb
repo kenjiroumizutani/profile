@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <head>
+      <h1>Kenjiro Mizutani</h1>
+    </head>
+      <%= yield %>
+    <fooder>
+      <br>
+      最後に、限りある時間の中で最後まで読んでくださってありがとうございました。<br>
+      もし可能でしたら、不採用の際に理由やアドバイスを
+      <%= mail_to 'k.mizutani.rc@gmail.com', 'こちら' %>に頂けると幸いです。
+    </fooder>
+  </body>
+</html>
