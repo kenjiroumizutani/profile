@@ -15,7 +15,8 @@ h2 {
 
 
 .profile_photo1 {
-  width: 30%;
+  padding-right: 1%;
+  width: 400px;
   /*margin-left: 5%;*/
   float: left;
 }
@@ -26,11 +27,6 @@ h2 {
 /*  float: left;*/
 /*}*/
 
-.profile_sentence {
-  width: 70%;
-  /*margin-right: 5%;*/
-  float: right;
-}
 
 .skill {
   
@@ -46,6 +42,10 @@ h2 {
   width: 50%;
   /*margin-left: 5%;*/
   float: right;
+}
+
+footer {
+  font-size: 0.8em;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
