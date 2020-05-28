@@ -21,16 +21,6 @@ h2 {
   float: left;
 }
 
-/*.profile_photo2 {*/
-/*  width: 30%;*/
-  /*margin-left: 5%;*/
-/*  float: left;*/
-/*}*/
-
-
-.skill {
-  
-}
 
 .sakuhin1 {
   width: 50%;
@@ -47,6 +37,20 @@ h2 {
 footer {
   font-size: 0.8em;
 }
+
+.slick1{
+    width: 400px;
+    height: 264px;
+    margin: 50px auto;
+}
+
+img {
+    width: 400px;
+    height: 264px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -59,7 +63,6 @@ footer {
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
-
  *= require_tree .
  *= require_self
  */
